@@ -3,7 +3,7 @@
 
 ## Coffee Machine Simulator
 This was my first project ever, it is a simulation of a coffee machine.
-![gif.gif](.idea/gif.gif)
+![til](.idea/gif.gif)
 <br>
 Project idea taken from
 https://hyperskill.org/projects/33
