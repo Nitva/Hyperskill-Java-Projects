@@ -2,9 +2,9 @@
 out/
 !**/src/main/**/out/
 !**/src/test/**/out/
-origin/main/.idea
-origin/main/.gitignore
-origin/main/JavaProjects.iml
+.idea
+.gitignore
+JavaProjects.iml
 
 ### Eclipse ###
 .apt_generated
