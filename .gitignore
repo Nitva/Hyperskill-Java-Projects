@@ -9,6 +9,7 @@
 .idea/**/dictionaries
 .idea/**/shelf
 .idea
+JavaProjects.iml
 
 # AWS User-specific
 .idea/**/aws.xml
