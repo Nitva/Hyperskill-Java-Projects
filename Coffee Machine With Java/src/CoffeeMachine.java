@@ -10,7 +10,7 @@ public class CoffeeMachine {
     private static boolean exit = false;
 
     // I used coffee as constants
-    private static final Coffee ESPRESSO = new Coffee(250, 16, 4);
+    private static final Coffee ESPRESSO = new Coffee(250, 16, 0,4);
     private static final Coffee LATTE = new Coffee(350, 75, 20, 7);
     private static final Coffee CAPPUCCINO = new Coffee(200, 100, 12, 6);
 
@@ -120,7 +120,7 @@ public class CoffeeMachine {
         water -= coffee.getWater();
         coffeeBeans -= coffee.getCoffeeBeans();
         cups--;
-        if (coffee.itHasMilk()) {
+        if (coffee.getMilk() > 0) {
             milk -= coffee.getMilk();
         }
         money += coffee.getMoney();
